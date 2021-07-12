@@ -19,12 +19,12 @@ the program (called Step1.png, Step2.png...and so on)
 - I don't own any images provided in this repository/project
 
 ##### Algorithm Explanation:
-Step 1: Read input image, convert RGB data to greyscale and stretch values to lie between 0 and 255
-Step 2: Compute Horizontal Edges using 3x3 sobel filter masks
-Step 3: Compute Vertical Edges using 3x3 sobel filter masks
-Step 4: Compute Edge (gradient) magnitude 
-Step 5: Smooth over the Edge magnitude using box averaging mean filter and stretch contrast to 0 and 255
-Step 6: Perform a thresholding operation to get the edge regions as a binary image
-Step 7: Perform morphological closing operation to fill holes 
-Step 8: Perform a connected component analysis to find the largest/correct connected object 
-Step 9: Extract Bounding Box around correct region 
+- Step 1: Read input image, convert RGB data to greyscale and stretch values to lie between 0 and 255
+- Step 2: Compute Horizontal Edges using 3x3 sobel filter masks
+- Step 3: Compute Vertical Edges using 3x3 sobel filter masks
+- Step 4: Compute Edge (gradient) magnitude 
+- Step 5: Smooth over the Edge magnitude using box averaging mean filter and stretch contrast to 0 and 255
+- Step 6: Perform a thresholding operation to get the edge regions as a binary image
+- Step 7: Perform morphological closing operation to fill holes 
+- Step 8: Perform a connected component analysis to find the largest/correct connected object 
+- Step 9: Extract Bounding Box around correct region 
